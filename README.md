@@ -64,7 +64,8 @@ params.put("setAge",99);
 params.put("setName","2b");
 RealmHelper.getInstance().updateParamByPrimaryKey(User.class,"id",4,params);
 ```
-
+notice:
+use RealmHelper please replace your Applcation and initRealm: Realm.getDefaultInstace(); 
 
         
 
